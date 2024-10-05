@@ -1,0 +1,55 @@
+<h1>{{title}}</h1>
+
+<a href="/login">Already have an account? Click here to log-in</a>
+
+<form name="signup-form" id="signup-form" method="POST" action="/register">
+    <label for="firstName">First Name:</label>
+    <input name="firstName" id="firstName" type="text">
+
+    <br>
+
+    <label for="lastName">Last Name:</label>
+    <input name="lastName" id="lastName" type="text">
+
+    <br>
+
+    <label for="username">Username:</label>
+    <input name="username" id="username" type="text">
+
+    <br>
+
+    <label for="password">Password:</label>
+    <input name="password" id="password" type="password">
+
+    <br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input name="confirmPassword" id="confirmPassword" type="password">
+
+    <br>
+
+    <label for="favoriteQuote">Favorite Quote:</label>
+    <input name="favoriteQuote" id="favoriteQuote" type="text">
+
+    <br>
+
+    <label for="themePreference">Theme Preference</label>
+    <select name="themePreference" id="themePreference">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+
+    <label for="role">Role</label>
+    <select name="role" id="role">
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+    </select>
+
+    <br>
+
+    <input type="submit" name="submitButton" id="submitButton">
+</form>
+
+<div hidden id="error">{{{errorHTML}}}</div>
+
+<script src="/public/js/client_side_validation.js"></script>

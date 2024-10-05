@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+
+<a href="/register">Click here to register!</a>
+
+<form name="signin-form" id="signin-form" method="POST" action="/login">
+    <label for="username">Username:</label>
+    <input name="username" id="username" type="text">
+
+    <br>
+
+    <label for="password">Password:</label>
+    <input name="password" id="password" type="password">
+
+    <br>
+
+    <input type="submit" name="submitButton" id="submitButton">
+</form>
+
+<div hidden id="error">{{{errorHTML}}}</div>
+
+<script src="/public/js/client_side_validation.js"></script>

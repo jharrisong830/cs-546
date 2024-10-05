@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MovieJAX</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header">MovieJAX</h1>
+    </header>
+
+    <main>
+        <form id="searchMovieForm">
+            <label for="movie_search_term">Search for a Movie</label>
+            <input id="movie_search_term" class="searchBar" type="text">
+            <button type="submit" class="searchButton">Search Movies</button>
+        </form>
+
+        <ul id="searchResults" hidden></ul>
+        
+        <div id="movieDetails" hidden></div>
+        
+        <a id="rootLink" href="/" hidden>New Search</a>
+
+        <div id="error" class="error" hidden></div>
+    </main>
+
+    <footer>
+        <p>John Graham</p>
+        <p>20006581</p>
+        <p>hello again.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="/public/js/main.js"></script>
+</body>
+
+</html>

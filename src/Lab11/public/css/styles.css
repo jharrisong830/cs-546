@@ -1,0 +1,72 @@
+body { /* apply to the entire page */
+    background-color: #253863;
+    color: #FFFFFF;
+    font-family: system-ui, 'Open Sans', sans-serif;
+}
+
+img { /* limit image size */
+    height: 117px;
+    width: 75px;
+}
+
+img.searchResultImage { /* add padding to space out image from search links */
+    padding: 5px;
+}
+
+.header {
+    color: #69C9AC;
+}
+
+#data dd { /* dd elements inside of an id element (info section) */
+    font-family: ui-monospace, "Courier", monospace
+}
+
+#data dt {
+    font-weight: bold; /* dt elements inside of an id element (info section headers) */
+}
+
+.my_coolratings_table { /* add border to the whole table */
+    border: 1px solid;
+}
+
+.my_coolratings_table td { /* set border for td elements inside of the table, and add centering/padding */
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    color: #B8E1FF;
+    font-family: ui-monospace, "Courier", monospace
+}
+
+a:visited {
+    color: #BCB6FF
+}
+
+.searchBar { /* search input box */
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.searchButton {
+    background-color: #A288E3;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2.5px;
+    border: none;
+}
+
+.not-found {
+    font-family: ui-monospace, "Courier", monospace;
+    color: #ED6E85
+}
+
+.error {
+    font-family: ui-monospace, "Courier", monospace;
+    color: #F7ACCF
+}

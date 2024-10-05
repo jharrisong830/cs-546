@@ -1,0 +1,61 @@
+body { /* apply to the entire page */
+    background-color: #253863;
+    color: #FFFFFF;
+    font-family: system-ui, 'Open Sans', sans-serif;
+}
+
+#error {
+    font-weight: bold;
+    font-family: ui-monospace, "Courier", monospace;
+    color: #ED6E85
+}
+
+h1 {
+    color: #69C9AC;
+}
+
+dl {
+    border: 1px solid;
+}
+
+/* emphasize the most recently appended output in the div */
+div#text_output dl:last-child {
+    border: 2px solid #69C9AC;
+}
+
+
+dl dt {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+dl dd {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-family: ui-monospace, "Courier", monospace;
+}
+
+/* make the text area larger */
+#text_to_analyze {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* button */
+form input {
+    background-color: #A288E3;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2.5px;
+    border: none;
+}
+
+footer {
+    padding: 10px 0px;
+
+}

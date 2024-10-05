@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+<div id="userView">
+    <p id="welcome">Welcome {{firstName}} {{lastName}}, the time is now: {{currentTime}}. Your role in the system is: {{role}}."</p>
+    <p id="quote">Favorite Quote: {{favoriteQuote}}</p>
+    {{#if isAdmin}}
+        <a id="adminLink" href="/admin">Admin Page</a>
+    {{/if}}
+    <a id="logoutLink" href="/logout">Logout</a>
+</div>
